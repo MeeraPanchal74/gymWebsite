@@ -1,0 +1,91 @@
+/*Navigation */
+.pri{
+    font-size: 25px;
+}
+
+.secondary {
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    flex-direction: column;
+    font-size: 0.5em;
+   height: 10%;
+   margin-top: 0px;
+   padding-top: 0px;
+  
+}
+#navbar img{
+    height: 35px;
+    margin: 0px;
+}
+#navbar li a{
+   font-size: 10px;
+}
+/* home section */
+#home{
+    /*height: 370px;
+    display:flexbox;*/
+    flex-direction: column; 
+    /* padding:3px 68px ; */
+    /*padding : 0px;*/
+    height: 560px;
+   
+}
+#home:before{
+   
+    height:45%;
+}
+#home p{
+    font-size: 15px;
+    align-self: left;
+   
+}
+#home h1{
+    font-size: 20px;
+    align-self: left;
+  
+}
+#home button{
+   
+    align-self: left;
+}
+#hcont {
+   
+    padding-left: 0px;
+    
+    margin: 0px;
+}
+
+/*  services section*/
+#services{
+   
+    display: flex; 
+    flex-direction: column;
+
+}
+
+#services h2{
+    font-size: 15px;
+}
+
+#services-container .ser #services .box {
+    width: 200px;
+}
+#services  .box img{
+    
+    width :150px;
+}
+.image{
+    
+}
+#contact{
+    display: flex; 
+    flex-direction: column;
+}
+
+/* contact us section */
+/* footer */
+/*Utility classes*/
